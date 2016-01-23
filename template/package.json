@@ -1,0 +1,50 @@
+{
+  "name": "metalsmith-boilerplate",
+  "version": "0.1.0",
+  "description": "A modern metalsmith boilerplate.",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  },
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "author": "Cameron J Roe <cameronjroe@gmail.com> (http://cameronjroe.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "metalsmith": "^2.1.0",
+    "metalsmith-autoprefixer": "^1.1.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-define": "^1.0.0",
+    "metalsmith-excerpts": "^1.1.0",
+    "metalsmith-fingerprint": "^1.0.3",
+    "metalsmith-html-minifier": "^1.1.0",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-imagemin": "^1.1.3",
+    "metalsmith-in-place": "https://github.com/cameronjroe/metalsmith-in-place.git#fork",
+    "metalsmith-jekyll-dates": "0.0.5",
+    "metalsmith-layouts": "https://github.com/cameronjroe/metalsmith-layouts.git#fork",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metadata": "0.0.4",
+    "metalsmith-pagination": "^1.4.0",
+    "metalsmith-paths": "^2.1.1",
+    "metalsmith-permalinks": "^0.4.1",
+    "metalsmith-rss": "^1.0.0",
+    "metalsmith-sass": "^1.3.0",
+    "metalsmith-sitemap": "^1.0.0",
+    "metalsmith-webpack": "^1.0.1",
+    "moment": "^2.11.1",
+    "tinyliquid": "^0.2.30"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0",
+    "webpack": "^1.12.11"
+  }
+}
